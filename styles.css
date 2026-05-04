@@ -1,0 +1,24 @@
+body { display: flex; margin: 0; min-height: 100vh; background: #031427; color: white; font-family: sans-serif; }
+.sidebar { background: #020719; position: fixed; width: 18%; height: 100%; border-right: 1px solid #1c2031; }
+.main-wrapper { flex: 1; margin-left: 18%; display: flex; flex-direction: column; }
+
+.nexus { display: block; padding: 30px; font-size: 30px; color: #8b5cf6; text-decoration: none; font-weight: bold; }
+.nav-item, .nav-item-active { display: block; padding: 15px 30px; color: #948e9c; text-decoration: none; }
+.nav-item-active { color: #937ae0; background: #1e1845; border-left: 4px solid #8b5cf6; }
+
+.content-area { padding: 30px; }
+.top-section h1 { font-size: 45px; line-height: 0.9; margin: 0; }
+.top-section p { color: #617187; font-size: 14px; margin: 15px 0; }
+
+#find { padding: 10px 15px; width: 250px; border-radius: 20px; border: 1px solid #1c2031; background: #020719; color: white; outline: none; }
+
+.filters { margin: 25px 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.f-btn { background: none; border: 1px solid #1c2031; color: #948e9c; padding: 6px 15px; border-radius: 15px; cursor: pointer; font-size: 12px; }
+.f-btn.active { background: #5c598d; color: white; border-color: #5c598d; }
+
+.grid { display: flex; flex-wrap: wrap; }
+.card { width: 46%; margin: 1%; background: #020719; height: 160px; position: relative; border-radius: 8px; overflow: hidden; }
+.card img { width: 100%; height: 100%; object-fit: cover; opacity: 0.6; }
+.card h3 { position: absolute; bottom: 10px; left: 12px; font-size: 13px; margin: 0; font-weight: bold; }
+
+.main-footer { background: #020719; border-top: 1px solid #1c2031; margin-top: auto; padding: 15px; color: #617187; font-size: 12px; }
